@@ -8,11 +8,11 @@ You need to upgrade the project to the newest versions and implement this servic
 - Spring 4 and Spring-boot
 - Maven
 
-#Database
+# Database
 The actual implementation uses H2 in memory as the database. You will find also the scripts 
 for MySQL. The scripts insert a few entries in each table.
 
-#Proposed exercise
+# Proposed exercise
 The candidate must:
 - Create Entity classes for the tables, including relationships
 - Create the Data manipulation layer. Feel free to use structure or framework you like (JPA, JDBC, Spring Data, etc).
@@ -24,7 +24,7 @@ The candidate must:
 
 Feel free to modify the files included, upgrade frameworks, add or remove packages, in every aspect you want. Just check the note regarding JUnit tests below.
 
-#Expected results
+# Expected results
 After the implementation, the application should run after the following command line:
 
 	java -jar target/spring-jpa-jersey.jar
@@ -71,9 +71,9 @@ It must return, at least the following (ids may vary) :
     ]
 
 
-#Unit tests
+# Unit tests
 
 Included you will find JUnit tests, with commented lines. Those tests must run after the lines
 are uncommented.
 
-**PLUS: It would be great if you can come up with unit and integration tests separately in their apropriate building phases.
+** PLUS: It would be great if you can come up with unit and integration tests separately in their apropriate building phases.
