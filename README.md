@@ -5,7 +5,7 @@ You need to upgrade the project to the newest versions and implement this servic
 - Java (preferably Java 8 and Functional programming as much as possible)
 - RESTFull service
 - Data manipulation layer
-- Spring 4 and Spring-boot
+- Spring-boot (upgrade to the latest version)
 - Maven
 
 # Database
@@ -74,6 +74,11 @@ It must return, at least the following (ids may vary) :
 # Unit tests
 
 Included you will find JUnit tests, with commented lines. Those tests must run after the lines
-are uncommented.
+are uncommented. 
+
+## Challenge
+
+Post the percentage of line covered by tests of your application.
+
 
 ** PLUS: It would be great if you can come up with unit and integration tests separately in their apropriate building phases.
